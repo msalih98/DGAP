@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Datasets, checkpoints and experiment outputs are not tracked,
+# but the placeholder directories are.
+data/*
+!data/README.md
+models/*
+!models/README.md
+results/
+out/
+dev/
+*.log

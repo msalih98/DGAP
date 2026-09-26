@@ -1,0 +1,14 @@
+attack: agnostic
+mode: dgap
+checkpoint: models/model300000.pt
+
+# Attack-agnostic DGAP config (used for all attacks; the defender has no
+# knowledge of the attack at test time).
+# Selected by calibrate.py on the development split (N=500, 15-level grid)
+# DEV AVG y = 23.80% across 3 attacks (pgd_l2 18.10, cw 34.50, linf 18.80)
+gate:
+  t: 60
+  tau: 1.0217    # mu + gamma*sigma where mu=+0.3076, sigma=1.4281, gamma=0.50
+
+defense:
+  t_score: 160

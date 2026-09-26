@@ -1,0 +1,10 @@
+attack: agnostic
+mode: uniform
+checkpoint: models/model300000.pt
+
+# Ablation: DGAP with the gate disabled (uniform purification at a fixed t_p).
+# Equivalent to DiffPure with the same fine-tuned purifier.
+# Selected by calibrate.py on the development split (N=500, 15-level grid)
+# DEV AVG y = 17.70% across 3 attacks
+defense:
+  t_score: 160
