@@ -7,7 +7,7 @@ Conference on Security and Privacy in Cyber-Physical Systems and Smart Vehicles
 
 **Authors:** Muhammed Salih Kayhan, Qiben Yan (Michigan State University)
 
-A preprint of the paper is available at: 
+A preprint of the paper is available at: https://arxiv.org/abs/2610.10752
 
 ---
 ## 1. Setup
